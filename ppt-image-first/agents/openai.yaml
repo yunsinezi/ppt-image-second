@@ -1,0 +1,13 @@
+interface:
+  display_name: PPT 精品生图·精简版
+  short_description: 先提问，再选八种风格；优先交付纯图片PPT，按需分层与动画
+  default_prompt: 请使用 $ppt-image-first 制作PPT，先询问需求，再生成八张风格预览供我选择。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
